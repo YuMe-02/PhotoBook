@@ -1,0 +1,17 @@
+.NavBar {
+  background-color: white;
+  float: left;
+  height: 100vh;
+
+  padding: .8rem;
+}
+
+
+.Name {
+  font-size: 4rem;
+}
+
+
+body {
+  background-color: black;
+}
