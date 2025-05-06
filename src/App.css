@@ -22,6 +22,15 @@ body {
   padding: 2rem;
   overflow-y: auto;
   box-sizing: border-box;
+  
+  /* Hide scrollbar for different browsers */
+  -ms-overflow-style: none;  /* Internet Explorer and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.NavBar::-webkit-scrollbar {
+  display: none;
 }
 
 /* Personal info */

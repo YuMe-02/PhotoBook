@@ -1,18 +1,50 @@
-Ar.ContentArea {
-    flex: 1;
-    padding: 30px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
+/* Content area main styles */
+.ContentArea {
+  flex: 1;
+  padding: 2rem;
+  background-color: black;
+  color: white;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Default image container */
+.default-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Default image styling */
+.default-image {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+}
+
+/* Content image styling */
+.content-image {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Content wrapper */
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .content-wrapper {
+    flex-direction: row;
   }
   
-  .ContentArea h2 {
-    margin-top: 0;
-    color: #333;
-    border-bottom: 2px solid #4CAF50;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+  .content-image {
+    max-width: 50%;
+    margin-right: 2rem;
+    margin-bottom: 0;
   }
-  
-  .content {
-    line-height: 1.6;
-  }
+}

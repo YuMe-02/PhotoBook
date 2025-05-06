@@ -1,17 +1,27 @@
 import { useState } from 'react';
+import { BrowserRouter, Routes, Route, useNavigate, useParams } from 'react-router-dom';
 import './App.css';
 import Category from './components/Category';
 import ContentArea from './components/ContentArea';
 import projectData from './components/projectData.json';
 
-function App() {
-  // State to track which item is currently selected
-  const [activeItem, setActiveItem] = useState(null);
+// Wrapper component for navigation
+function AppContent() {
+  const navigate = useNavigate();
+  const { itemId } = useParams();
   
   // Create a flat array of all items for the ContentArea component
   const allItems = projectData.categories.reduce((acc, category) => {
     return [...acc, ...category.items];
   }, []);
+
+  // Find the active item based on URL parameter
+  const activeItem = itemId || null;
+  
+  // Function to handle item selection
+  const setActiveItem = (id) => {
+    navigate(`/item/${id}`);
+  };
 
   return (
     <div className="App">
@@ -38,6 +48,18 @@ function App() {
       
       <ContentArea activeItem={activeItem} allItems={allItems} />
     </div>
+  );
+}
+
+// Main app component with routing
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AppContent />} />
+        <Route path="/item/:itemId" element={<AppContent />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

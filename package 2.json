@@ -1,0 +1,22 @@
+{
+  "name": "photobook",
+  "type": "module",
+
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuMe-02/PhotoBook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuMe-02/PhotoBook/issues"
+  },
+  "homepage": "https://github.com/YuMe-02/PhotoBook#readme",
+  "description": ""
+}

@@ -1,9 +1,9 @@
-
 import React from 'react';
 import './Category.css';
+import { Link } from 'react-router-dom';
 
 function Category(props) {
-  const { title, chineseChar, items, activeItem, setActiveItem } = props;
+  const { title, chineseChar, items, activeItem } = props;
   
   return (
     <div className="Category">
@@ -16,9 +16,8 @@ function Category(props) {
           <li 
             key={index}
             className={activeItem === item.id ? "active" : ""}
-            onClick={() => setActiveItem(item.id)}
           >
-            {item.text}
+            <Link to={`/item/${item.id}`}>{item.text}</Link>
           </li>
         ))}
       </ul>
