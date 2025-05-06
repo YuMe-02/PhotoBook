@@ -1,0 +1,38 @@
+.Category {
+    margin-bottom: 20px;
+  }
+  
+  .CategoryTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4CAF50; /* Green color as shown in the image */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chinese-char {
+    margin-right: 8px;
+  }
+  
+  .Category ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+  
+  .Category li {
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .Category li:hover {
+    color: #4CAF50;
+  }
+  
+  .Category li.active {
+    color: #4CAF50;
+    font-weight: bold;
+  }

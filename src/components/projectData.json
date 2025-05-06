@@ -1,0 +1,147 @@
+{
+    "categories": [
+      {
+        "id": "photos",
+        "title": "Photos",
+        "chineseChar": null,
+        "items": [
+          {
+            "id": "photo1",
+            "text": "Joe",
+            "content": "Photos of Joe would be displayed here."
+          },
+          {
+            "id": "photo2",
+            "text": "MaMa",
+            "content": "Photos of MaMa would be displayed here."
+          }
+        ]
+      },
+      {
+        "id": "drawing",
+        "title": "DRAWING",
+        "chineseChar": "画",
+        "items": [
+          {
+            "id": "drawing1",
+            "text": "Hide and Seek",
+            "content": "Hide and Seek drawing project details and images would be displayed here."
+          },
+          {
+            "id": "drawing2",
+            "text": "White on White on White",
+            "content": "White on White on White project details and images would be displayed here."
+          },
+          {
+            "id": "drawing3",
+            "text": "Four Courtyards: a Chromatic Odyssey",
+            "content": "Four Courtyards project details and images would be displayed here."
+          },
+          {
+            "id": "drawing4",
+            "text": "Nostalgia",
+            "content": "Nostalgia project details and images would be displayed here."
+          },
+          {
+            "id": "drawing5",
+            "text": "Tension",
+            "content": "Tension project details and images would be displayed here."
+          },
+          {
+            "id": "drawing6",
+            "text": "Chimney, Cloud, and Pine Branch",
+            "content": "Chimney, Cloud, and Pine Branch project details and images would be displayed here."
+          },
+          {
+            "id": "drawing7",
+            "text": "Objects, Layers, and Passages",
+            "content": "Objects, Layers, and Passages project details and images would be displayed here."
+          },
+          {
+            "id": "drawing8",
+            "text": "Stairs, Walls, and Corridor",
+            "content": "Stairs, Walls, and Corridor project details and images would be displayed here."
+          },
+          {
+            "id": "drawing9",
+            "text": "House of Day, House of Night",
+            "content": "House of Day, House of Night project details and images would be displayed here."
+          },
+          {
+            "id": "drawing10",
+            "text": "Flowers and Porcelain",
+            "content": "Flowers and Porcelain project details and images would be displayed here."
+          },
+          {
+            "id": "drawing11",
+            "text": "Popo is my bunny",
+            "content": "Popo is my bunny project details and images would be displayed here."
+          },
+          {
+            "id": "drawing12",
+            "text": "Moon, Moonlight, and Dreams",
+            "content": "Moon, Moonlight, and Dreams project details and images would be displayed here."
+          }
+        ]
+      },
+      {
+        "id": "object",
+        "title": "OBJECT",
+        "chineseChar": "物",
+        "items": [
+          {
+            "id": "object1",
+            "text": "VASE No.1",
+            "content": "VASE No.1 project details and images would be displayed here."
+          },
+          {
+            "id": "object2",
+            "text": "VASE No.2, 3, 4",
+            "content": "VASE No.2, 3, 4 project details and images would be displayed here."
+          },
+          {
+            "id": "object3",
+            "text": "Cloud Machine",
+            "content": "Cloud Machine project details and images would be displayed here."
+          },
+          {
+            "id": "object4",
+            "text": "Breath of the Sky",
+            "content": "Breath of the Sky project details and images would be displayed here."
+          },
+          {
+            "id": "object5",
+            "text": "Post Digital La Villette",
+            "content": "Post Digital La Villette project details and images would be displayed here."
+          },
+          {
+            "id": "object6",
+            "text": "Sail",
+            "content": "Sail project details and images would be displayed here."
+          },
+          {
+            "id": "object7",
+            "text": "Reimaging Concrete",
+            "content": "Reimaging Concrete project details and images would be displayed here."
+          },
+          {
+            "id": "object8",
+            "text": "Under the Cloud",
+            "content": "Under the Cloud project details and images would be displayed here."
+          }
+        ]
+      },
+      {
+        "id": "architecture",
+        "title": "ARCHITECTURE",
+        "chineseChar": "筑",
+        "items": [
+          {
+            "id": "architecture1",
+            "text": "Brooklyn Diary Project",
+            "content": "Brooklyn Diary Project details and images would be displayed here."
+          }
+        ]
+      }
+    ]
+  }

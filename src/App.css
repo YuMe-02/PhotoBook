@@ -1,17 +1,56 @@
+/* Base styles */
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* App container */
+.App {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Navigation sidebar */
 .NavBar {
   background-color: white;
   float: left;
   height: 100vh;
-
-  padding: .8rem;
+  width: 33vw;
+  padding: 2rem;
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 
-
+/* Personal info */
 .Name {
   font-size: 4rem;
+  margin-bottom: 0.5rem;
 }
 
+.Occupation {
+  margin-top: -1rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
 
-body {
+/* Footer */
+footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  font-size: 1rem;
+  color: #888;
+}
+
+/* Content area styling */
+.ContentArea {
+  flex: 1;
+  padding: 2rem;
   background-color: black;
+  color: white;
+  overflow-y: auto;
 }
