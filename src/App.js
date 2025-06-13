@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter, Routes, Route, useNavigate, useParams } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useNavigate, useParams, Link } from 'react-router-dom';
 import './App.css';
 import Category from './components/Category';
 import ContentArea from './components/ContentArea';
@@ -26,8 +26,10 @@ function AppContent() {
   return (
     <div className="App">
       <div className="NavBar">
-        <div className="Name">Darren Yu</div>
-        <div className="Occupation">Developer | Designer</div>
+        <div className="Name">
+          <Link to="/">Darren Yu | Portfolio </Link>
+        </div>
+        {/* <div className="Occupation"> Developer | Designer</div> */}
         
         {/* Map through categories and create a Category component for each */}
         {projectData.categories.map((category) => (

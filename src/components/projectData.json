@@ -3,16 +3,21 @@
       {
         "id": "photos",
         "title": "Photos",
-        "chineseChar": null,
+        "chineseChar": "影",
         "items": [
           {
             "id": "photo1",
-            "text": "Joe",
+            "text": "Architecture",
             "content": "Photos of Joe would be displayed here."
           },
           {
             "id": "photo2",
-            "text": "MaMa",
+            "text": "Portrait",
+            "content": "Photos of MaMa would be displayed here."
+          },
+          {
+            "id": "photo3",
+            "text": "Street",
             "content": "Photos of MaMa would be displayed here."
           }
         ]
@@ -128,18 +133,6 @@
             "id": "object8",
             "text": "Under the Cloud",
             "content": "Under the Cloud project details and images would be displayed here."
-          }
-        ]
-      },
-      {
-        "id": "architecture",
-        "title": "ARCHITECTURE",
-        "chineseChar": "筑",
-        "items": [
-          {
-            "id": "architecture1",
-            "text": "Brooklyn Diary Project",
-            "content": "Brooklyn Diary Project details and images would be displayed here."
           }
         ]
       }
